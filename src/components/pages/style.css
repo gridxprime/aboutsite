@@ -12,6 +12,23 @@ section{
     gap: 35px;
 }
 
+.info__inner-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info__inner-main-right{
+    display: flex;
+    gap: 10px;
+}
+
+.info__inner-main-right img{
+    max-width: 100px;
+    max-height: 100px;
+    filter: drop-shadow(#fff 2px 2px 1px);
+}
+
 .info__inner-txt{
     margin-top: 10px;
     display: block;

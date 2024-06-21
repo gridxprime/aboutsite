@@ -55,7 +55,7 @@
     left: 0;
     right: 0;
     top: 38px;
-
+    
 }
 
 .navbar ul li{
@@ -63,7 +63,7 @@
     font-size: clamp(20px, 2vw, 30px);
     background: rgba(0, 0, 0, 0.445);
     width: 100%;
-    padding: 0 10%;
+    padding: 3% 20%;
     cursor: pointer;
     user-select: none;
     text-align: center;

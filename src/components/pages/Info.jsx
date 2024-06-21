@@ -3,11 +3,19 @@ import './style.css'
 import './media.css'
 import { Link } from 'react-router-dom'
 
+import htmlIcon from './icons/html.png'
+import cssIcon from './icons/css.png'
+import reactIcon from './icons/react.png'
+import githubIcon from './icons/gh.svg'
+
 function Info() {
   return (
         <>
         <section>
           <div className="info__inner">
+
+            <div className="info__inner-main">
+              <div className="info__inner-main-left">
             <h2>Hi, I'm Aibek</h2>
             <span className='info__inner-txt'>
             With over four years of experience in web 
@@ -26,6 +34,16 @@ function Info() {
              <li>Version Control: Git, GitHub/GitLab/Bitbucket</li>
             </ul>
             </span>
+            </div>
+            <div className="info__inner-main-right">
+
+             <img src={htmlIcon} alt="" />
+             <img src={cssIcon} alt="" />
+             <img src={reactIcon} alt="" />
+             <img src={githubIcon} alt="" />
+
+            </div>
+            </div>
             <div className='info__bottom'>
               <span>
             I've collaborated on diverse projects, applying my expertise to deliver 
