@@ -1,0 +1,5 @@
+@media all and (max-width: 660px) {
+    section{
+        padding: 20px 0;
+    }
+}

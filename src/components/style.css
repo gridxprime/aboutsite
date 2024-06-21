@@ -1,0 +1,105 @@
+.home{
+    min-height: 90vh;
+    min-width: 80vw;
+    background: #000000b0;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #fff;
+    margin:  0 50px;
+}
+
+
+
+.home__top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #3f3f3f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+   cursor:default;
+}
+
+.home__top span{
+    font-size: 23px;
+    display: block;
+    padding: 5px;
+}
+
+.window__actions{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 10px;
+    padding: 0 5px;
+    
+}
+
+.navbar{
+    margin-top: 38px;
+
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 38px;
+
+}
+
+.navbar ul li{
+    list-style-position: inside;
+    font-size: clamp(20px, 2vw, 30px);
+    background: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    padding: 0 10%;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar ul li:hover{
+    background: rgba(0, 128, 0, 0.575);
+}
+
+.navbar ul li:active{
+    background: rgba(172, 255, 47, 0.568);
+}
+
+.output{
+    padding: 30px 50px 0;
+    font-size: clamp(20px, 2vw, 30px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.output span a{
+    color: #fff;
+}
+
+.output .contacts{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+
+.contacts{
+    text-align: center;
+}

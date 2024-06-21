@@ -1,0 +1,23 @@
+@media all and (max-width: 660px) {
+    .navbar ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .navbar ul li{
+        padding: 10px 0;
+    }
+
+    .info__inner{
+        padding-top: 30px;
+    }
+    
+    .output{
+        padding: 100px 0;
+        
+    }
+
+    .home{
+        margin: 20px;
+    }
+}

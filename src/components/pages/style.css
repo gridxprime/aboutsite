@@ -1,0 +1,31 @@
+section{
+    padding: 30px 0;
+}
+
+.info__inner{
+    font-size: clamp(20px, 3vw, 25px);
+}
+
+.info__inner-txt{
+    margin-top: 10px;
+    display: block;
+    max-width: 900px;
+    line-height: 1.5;
+}
+
+.info__inner-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+
+.info__inner-skills ul{
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
