@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import './media.css'
+import { Link } from 'react-router-dom'
 
 function Info() {
   return (
@@ -25,6 +26,11 @@ function Info() {
              <li>Version Control: Git, GitHub/GitLab/Bitbucket</li>
             </ul>
             </span>
+            <span className='info__bottom'>
+            I've collaborated on diverse projects, applying my expertise to deliver solutions that meet both technical and business objectives.
+
+            </span>
+            <Link to='/contacts'><button className='get__started'>Get Started</button></Link>
           </div>
         </section>
 
