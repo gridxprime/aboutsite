@@ -1,7 +1,13 @@
 import React from 'react'
-import '../style.css'
+import './../style.css'
+import './style.css'
 import { Link } from 'react-router-dom'
-
+import Image1 from '../../img/projects/1.webp'
+import Image2 from '../../img/projects/2.webp'
+import Image3 from '../../img/projects/3.webp'
+import Image4 from '../../img/projects/4.webp'
+import Image5 from '../../img/projects/5.webp'
+import Image6 from '../../img/projects/6.webp'
 
 function Projects() {
   return (
@@ -27,7 +33,14 @@ function Projects() {
         </ul>
       </nav>
       <div className="output">
-          
+          <div className="images">
+            <img src={Image1} alt="" />
+            <img src={Image2} alt="" />
+            <img src={Image3} alt="" />
+            <img src={Image4} alt="" />
+            <img src={Image5} alt="" />
+            <img src={Image6} alt="" />
+          </div>
       </div>
 
     </section>

@@ -68,3 +68,19 @@ section{
     font-size: clamp(25px, 2vw, 30px);
     border-radius: 50px;
 }
+
+.images{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.images img{
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(#000 10px 10px 5px);
+}
