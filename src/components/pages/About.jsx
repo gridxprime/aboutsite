@@ -26,13 +26,14 @@ function About() {
         </ul>
       </nav>
       <div className="output">
-      <p>> Name: Aibek Everon</p>
-            <p>> Title: React Developer</p>
-            <p>> Skills: React, JavaScript, HTML, CSS, Redux, Node.js</p>
-            <p>> Experience: 4 years</p>
-            <p>> Projects: 10+ major projects, including e-commerce platforms and social media applications</p>
-            <p>> Education: BSc in Computer Science</p>
-            <p>> Contact: aibek.everon@example.com</p>
+      <p>    > <b>Name:</b> Aibek Everon</p>
+            <p>> <b>Title:</b> React Developer</p>
+            <p>> <b>Skills:</b> React, JavaScript, HTML, CSS, Redux, Node.js</p>
+            <p>> <b>Experience:</b> 4 years</p>
+            <p>> <b>Projects:</b> 10+ major projects, including e-commerce platforms and social media applications</p>
+            <p>> <b>Education:</b> BSc in Computer Science</p>
+            <p>> <b>Contact:</b> gridx.prime.conrad@gmail.com</p>
+            <br />
             <p>> Opening file: index.html</p>
             <p>> Opening file: app.jsx</p>
             <p>> Opening file: style.css</p>
