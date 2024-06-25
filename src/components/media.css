@@ -1,3 +1,9 @@
+@media all and (max-width: 870px) {
+    .embla__slide{
+        flex-direction: column;
+    }
+}
+
 @media all and (max-width: 660px) {
     .navbar ul{
         display: grid;

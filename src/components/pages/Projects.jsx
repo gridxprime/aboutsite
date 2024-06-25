@@ -43,17 +43,21 @@ const [emblaRef] = UseEmblaCarousel()
         </ul>
       </nav>
       <div className="output">
+      <span className='output__span'>
+           As a React developer with 4 years of experience, I have successfully completed numerous projects, including:
+           </span>
         <div className="embla" ref={emblaRef}>
            <div className="embla__container">
-             <div className="embla__slide"><img src={Image1} alt="" /></div> 
-             <div className="embla__slide"><img src={Image2} alt="" /></div> 
-             <div className="embla__slide"><img src={Image3} alt="" /></div> 
-             <div className="embla__slide"><img src={Image4} alt="" /></div> 
-             <div className="embla__slide"><img src={Image5} alt="" /></div> 
-             <div className="embla__slide"><img src={Image6} alt="" /></div> 
+             <div className="embla__slide"><img src={Image1} alt="" /><span>Next</span></div> 
+             <div className="embla__slide"><img src={Image2} alt="" /><span>Next</span></div> 
+             <div className="embla__slide"><img src={Image5} alt="" /><span>Next</span></div> 
+             <div className="embla__slide"><img src={Image3} alt="" /><span>Next</span></div> 
+             <div className="embla__slide"><img src={Image4} alt="" /><span>Next</span></div> 
+             <div className="embla__slide"><img src={Image6} alt="" /><span>Next</span></div> 
 
            </div>
            <span>Swipe ↔ </span>
+
            </div>
      
           
