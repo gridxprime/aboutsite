@@ -125,12 +125,16 @@
   }
   
   .embla__slide {
-    flex: 0 0 100%;
+
     max-width: 100%; /* Обновлено для предотвращения горизонтального скролла */
     display: flex;
     align-items: center;
     justify-content: center; /* Добавлено для центрирования изображений */
     gap: 20px;
+    flex-basis: content;
+    flex-shrink: 0;
+    flex-grow: 50;
+
   }
   
   .embla__slide img {
