@@ -34,7 +34,9 @@ function Contacts() {
           <span>
             Email: till_morning_comes@mail.ru
           </span>
-          <span>Telegram: <a href="https:/www.t.me/till_morning_comes">till_morning_comes</a></span>
+          <span>Telegram: <a href="https://www.t.me/till_morning_comes">till_morning_comes</a>
+          </span>
+          <span>Youtube: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Aibek Everon</a></span>
           </div>
       </div>
 

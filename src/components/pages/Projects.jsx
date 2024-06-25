@@ -5,9 +5,6 @@ import { Link } from 'react-router-dom'
 
 import  UseEmblaCarousel  from 'embla-carousel-react'
 
-
-
-
 import Image1 from '../../img/projects/1.webp'
 import Image2 from '../../img/projects/2.webp'
 import Image3 from '../../img/projects/3.webp'
