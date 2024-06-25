@@ -76,11 +76,11 @@ section{
     flex-wrap: wrap;
     justify-content: center;
    
-    gap: 10px;
+
 }
 
 .images img{
-    max-width: 100%;
+    max-width: 50%;
 
     border-radius: 10px;
     filter: drop-shadow(#000 10px 10px 5px);

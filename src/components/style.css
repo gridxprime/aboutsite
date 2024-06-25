@@ -107,33 +107,32 @@
 }
 
 
-.embla{
+.embla {
     overflow: hidden;
-    max-width: 100vw;
     user-select: none;
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
-}
-
-.embla__container{
-  display: flex;
-  gap: 30px;
-padding-bottom: 30px;
-
-}
-
-.embla__slide{
+    max-width: 80vw;
+  }
+  
+  .embla__container {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+    /* Обязательно добавьте это свойство */
+    width: 100%; /* Убедитесь, что контейнер занимает всю ширину */
+  }
+  
+  .embla__slide {
     flex: 0 0 100%;
-    min-width: 0;
+    max-width: 100%; /* Обновлено для предотвращения горизонтального скролла */
     display: flex;
     align-items: center;
+    justify-content: center; /* Добавлено для центрирования изображений */
     gap: 20px;
-}
-
-.embla__slide img{
-    max-width: 100%;
+  }
+  
+  .embla__slide img {
+    max-width: 100%; /* Изменено для адаптивного изображения */
     border-radius: 20px;
-
-
-}
+  }
