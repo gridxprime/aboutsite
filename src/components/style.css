@@ -1,12 +1,12 @@
 .home{
-    min-height: 90vh;
-    min-width: 80vw;
+    min-height: 80vh;
+    min-width: 90vw;
     background: #000000b0;
     border-radius: 10px;
     padding: 10px;
     position: relative;
     border: 1px solid #fff;
-    margin:  0 50px;
+    margin: 0 20px;
 
 }
 
@@ -118,26 +118,36 @@
   
   .embla__container {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 30px;
-    /* Обязательно добавьте это свойство */
-    width: 100%; /* Убедитесь, что контейнер занимает всю ширину */
+
+    width: 100%;
   }
   
   .embla__slide {
 
-    max-width: 100%; /* Обновлено для предотвращения горизонтального скролла */
+    max-width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center; /* Добавлено для центрирования изображений */
-    gap: 20px;
+    justify-content: center;
+   
     flex-basis: content;
     flex-shrink: 0;
-    flex-grow: 50;
+    flex-grow: 0;
 
   }
   
   .embla__slide img {
-    max-width: 100%; /* Изменено для адаптивного изображения */
-    border-radius: 20px;
+    max-width: 90%;
+
+    border-radius: 10px;
+  }
+
+
+  .open__terminal{
+  
+    padding: 10px 30px;
+    margin: 0 auto;
+    background: #3f3f3f;
+    color: #fff;
   }

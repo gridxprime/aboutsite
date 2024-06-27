@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './style.css'
 import './media.css'
 import { Link } from 'react-router-dom'
@@ -6,7 +6,14 @@ import Info from './pages/Info'
 
 
 function Main() {
+
+  const [openTerminal, setOpenTerminal] = useState(false)
+  const toggleSection = () => {setOpenTerminal(!openTerminal)}
+  
   return (
+
+
+  <>
     <section className='home'>
       <div className="home__top">
           <span>
@@ -17,7 +24,7 @@ function Main() {
               <span>–</span>
             </div>
             <div className="full__window outline">❒</div>
-            <div className="close outline">X</div>
+            <div className="close outline"> <Link style={{width: '100%' , textDecoration: 'none', color: '#fff'}} to='/open__terminal'>X</Link> </div>
           </div>
       </div>
       <nav className='navbar'>
@@ -33,8 +40,10 @@ function Main() {
 
           </Info>
       </div>
-
+   
     </section>
+   
+    </>
   )
 }
 

@@ -75,6 +75,6 @@ section{
     padding: 30px 0
 }
 
-.embla__slide img{
-    filter: drop-shadow(#ffffff52 4px 4px 2px);
+.embla__slide img {
+    width: 536px;
 }

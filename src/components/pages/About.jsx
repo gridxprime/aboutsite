@@ -14,7 +14,7 @@ function About() {
               <span>–</span>
             </div>
             <div className="full__window outline">❒</div>
-            <div className="close outline">X</div>
+            <div className="close outline"> <Link style={{width: '100%' , textDecoration: 'none', color: '#fff'}} to='/open__terminal'>X</Link> </div>
           </div>
       </div>
       <nav className='navbar'>
